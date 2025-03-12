@@ -1,3 +1,2 @@
 # firstpython
-first repository
-b
+first repositorgi
