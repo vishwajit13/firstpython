@@ -27,12 +27,12 @@ print("returned ammont is",ammo_return)
 lenghth_bath_sf=5.5**2
 per_suare_feet=500
 total_cost=lenghth_bath_sf*per_suare_feet
-print("total coast to replace all styles",total_cost)'''
+print("total coast to replace all styles",total_cost)
 
 num=17
 print("number in binary",format(num,'b'))
+'''
 
 
 
-
-
+gfbtobgyqibhygroggit
