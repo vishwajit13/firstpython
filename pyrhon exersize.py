@@ -1,4 +1,4 @@
-'''birth_year=int(input("enter ur birth year :"))
+''''birth_year=int(input("enter ur birth year :"))
 current_year=int(input("enter current year:"))
 age=(current_year -  birth_year)
 print('your age is:',age)
@@ -31,8 +31,75 @@ print("total coast to replace all styles",total_cost)
 
 num=17
 print("number in binary",format(num,'b'))
-'''
+
+
+street=input("enter the name of street ")
+city=input("enter the name of city")
+country=input("enter the name of country")
+print("your address:",street+'\n'
+      +city+'\n'+
+      country+'\n')
+
+
+s='earth revolves around the sun'
+
+print(s[
+
+vegitables=input(" vegitable names that you eat daily")
+fruits=input("fruits names that you eat daily")
+print(f" i eat {vegitables} vegitables and {fruits} fruits daily")
+
+
+s='maine 200 banana khaye'
+s=s.replace('banana','samosa').replace('200','10')
+print(s
+)
+
+exp=[2200,2350,2600,2130,2190]
+print("extra dollers compare to january in feb",exp[0]-exp[1])
+
+print("total income in first quarter",exp[1]+exp[2]+exp[0])
+print("did ispened 2000 in any of the month",2000 in exp)
+
+
+exp.append(1980)
+print("expence when jun is complited",exp)
+exp[3]=exp[3]-200
+print("the month after reducing200 from it",exp[3])
+print(exp)
 
 
 
-gfbtobgyqibhygroggit
+india=["mumbai","bangalore","chennai","delhi"]
+pakistan=["lahore","karachi","islamabad"]
+bangladesh=["dhaka","khulna","rangpur"]
+
+city1=input("enter the city name1")
+city2=input("enter the city name2")
+
+
+if city1 in india and city2 in india:
+    print(f"the both belongs to india")
+
+elif city1 and city2 in pakistan:
+    print(f"the  both belongs to pakistan")
+elif city1 and city2 in bangladesh:
+    print(f"the both belongs to bangladesh")
+else:
+    print("they are not belongs to one country")
+
+
+
+shugar_level=input("enter the sugar level")
+shugar_level=int(shugar_level)
+if shugar_level<100:
+    print("shugar is low")
+elif shugar_level>100:
+    print("shugar is high")
+else:
+    print("sugar is norml")
+    '''
+
+
+
+
