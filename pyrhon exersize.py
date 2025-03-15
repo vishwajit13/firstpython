@@ -98,8 +98,45 @@ elif shugar_level>100:
     print("shugar is high")
 else:
     print("sugar is norml")
-    '''
+
+
+result=["heads","tails","tails","heads","tails","heads","heads","tails","tails"]
+count=0
+
+for i in result:
+    if i=="tails":
+        count+=1
+        print("head count is",count)
 
 
 
 
+num=[1,3,5,7,9]
+i=0
+for i in num:
+
+    print('sqaure of  num are',i*i)
+
+    for i in range (1,11):
+        if i%2==0:
+          continue
+        print(i*i)
+
+for i in range(1,6):
+    s=''
+    for j in range(i):
+        s+='*'
+        print(s)
+
+base=input("enter the base value")
+height=input("enter the height value")
+base=int(base)
+height=int(height)
+area=1/2*base*height
+area=int(area)
+print(area)'''
+
+
+f=open("c:\\python\\poem.txt","r")
+print(f.read())
+f.close()
